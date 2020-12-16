@@ -1,0 +1,92 @@
+[
+    {
+        "id":1,
+        "type":"Small Room",
+        "nameRoom":"Tiger Home",
+        "image":"https://img.vn/uploads/thuvien/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg",
+        "imageDeteil":[
+            "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/14/81/148128_v7.jpeg",
+            "https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?s=1024x768",
+            "https://media-cdn.tripadvisor.com/media/photo-s/15/a1/d2/af/hotel-r-de-paris.jpg"
+        ],
+        "content":"This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "price":310,
+        "ft":415,
+        "personMax":4
+    },
+    {
+        "id":2,
+        "type":"BigG Room",
+        "nameRoom":"Super Home",
+        "image":"https://www.timeoutdubai.com/public/images/2020/07/13/IMG-Dubai-UAE.jpg",
+        "imageDeteil":[
+            "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/14/81/148128_v7.jpeg",
+            "https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?s=1024x768",
+            "https://media-cdn.tripadvisor.com/media/photo-s/15/a1/d2/af/hotel-r-de-paris.jpg"
+        ],
+        "content":"This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "price":304,
+        "ft":152,
+        "personMax":4
+    },
+    {
+        "id":3,
+        "type":"Perfect Room",
+        "nameRoom":"Gan Home",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrJz8qDlHLCcApLlMmbj-oF9YWzvMWiUV6aA&usqp=CAU",
+        "imageDeteil":[
+            "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/14/81/148128_v7.jpeg",
+            "https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?s=1024x768",
+            "https://media-cdn.tripadvisor.com/media/photo-s/15/a1/d2/af/hotel-r-de-paris.jpg"
+        ],
+        "content":"This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "price":30,
+        "ft":15,
+        "personMax":4
+    },
+    {
+        "id":4,
+        "type":"Vip Room",
+        "nameRoom":"Popur Home",
+        "image":"https://imagevars.gulfnews.com/2017/8/28/1_16a083ca8dc.2081539_2008253998_16a083ca8dc_medium.jpg",
+        "imageDeteil":[
+            "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/14/81/148128_v7.jpeg",
+            "https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?s=1024x768",
+            "https://media-cdn.tripadvisor.com/media/photo-s/15/a1/d2/af/hotel-r-de-paris.jpg"
+        ],
+        "content":"This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "price":830,
+        "ft":155,
+        "personMax":2
+    },
+    {
+        "id":5,
+        "type":"Liger Room",
+        "nameRoom":"Romucar Home",
+        "image":"https://images.zawya.com/images/cia/zXlarge/161207065706OAJS.jpg",
+        "imageDeteil":[
+            "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/14/81/148128_v7.jpeg",
+            "https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?s=1024x768",
+            "https://media-cdn.tripadvisor.com/media/photo-s/15/a1/d2/af/hotel-r-de-paris.jpg"
+        ],
+        "content":"This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "price":30,
+        "ft":15,
+        "personMax":4
+    },
+    {
+        "id":6,
+        "type":"small Room",
+        "nameRoom":"Romucar Home",
+        "image":"https://www.nydailynews.com/resizer/PKZPVdwVAEPMX_BE2_LtFo78kl8=/1200x0/center/middle/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/VBQMGK5TVZHD3MDXMRUOWN3YQ4.jpg",
+        "imageDeteil":[
+            "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/14/81/148128_v7.jpeg",
+            "https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?s=1024x768",
+            "https://media-cdn.tripadvisor.com/media/photo-s/15/a1/d2/af/hotel-r-de-paris.jpg"
+        ],
+        "content":"This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "price":30,
+        "ft":15,
+        "personMax":4
+    }
+]

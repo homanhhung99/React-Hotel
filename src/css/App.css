@@ -1254,3 +1254,21 @@ a.full-view:hover {
 .rowH.right-header a:hover {
     text-decoration: none;
 }
+
+.around_hotel img {
+    background-size: cover;
+    width: 215px;
+    height: 300px;
+    margin-right: 35px;
+}
+.around_hotel
+{
+    margin-bottom: 25px;
+}
+.around_hotel h5
+{
+    font-family: 'Lato', Times, serif;
+    color: rgb(110, 110, 110);
+    margin-bottom: 29px;
+}
+

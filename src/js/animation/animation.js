@@ -36,4 +36,9 @@ $(function () {
       $('html').animate({scrollTop: $('.room-services-detail').offset().top}, 1000,'easeInCirc')
       /* Act on the event */
       });
+    $('.sl3').on('click', function(event) {
+      event.preventDefault();
+      $('html').animate({scrollTop: $('.around_hotel').offset().top}, 1000,'easeInOutCirc')
+      /* Act on the event */
+      });
 });

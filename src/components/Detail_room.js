@@ -101,6 +101,14 @@ class Detail_room extends Component {
                                         </div>
                                     </div>
                                     </div>
+                                    <div className="around_hotel">
+                                        <h5>Around The Hotel</h5>
+                                        <div className="row">
+                                            <img src={value.imageDeteil[0]} alt="" />
+                                            <img src={value.imageDeteil[1]} alt="" />
+                                            <img src={value.imageDeteil[2]} alt="" />
+                                        </div>``
+                                        </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="click-book-now">

@@ -1,7 +1,33 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 class Register extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isRedirect: false
+    }
+  }
+  isChange = (event)=>{
+    const Name = event.target.name
+    const value = event.target.value
+    this.setState({
+      [Name]:value
+    })
+  }
+  submitFormRegister = (event)=>{
+    event.preventDefault()
+    const Name = event.target.name
+    const value = event.target.value
+    this.setState({
+      isRedirect:true,
+      [Name]:value
+    })
+  }
     render() {
+      if(this.state.isRedirect === true)
+      {
+        console.log(this.state);
+      }
         return (
             <div>
                 <div>
@@ -16,55 +42,55 @@ class Register extends Component {
             BECOME A MEMBER !
           </h3>
           <h4>Registere</h4>
-          <form>
+          <form id="form-register">
             <div className="form-row">
               <div className="form-group col-md-6">
                 <label htmlFor="inputEmail4">Email</label>
-                <input type="email" className="form-control" id="inputEmail4" placeholder="Email" />
+                <input name="rEmail" onChange={(event)=>this.isChange(event)} type="email" className="form-control" id="inputEmail4" placeholder="Email" />
               </div>
               <div className="form-group col-md-6">
                 <label htmlFor="inputPassword4">Password</label>
-                <input type="password" className="form-control" id="inputPassword4" placeholder="Password" />
+                <input name="rPassWord" onChange={(event)=>this.isChange(event)} type="password" className="form-control" id="inputPassword4" placeholder="Password" />
               </div>
             </div>
             <div className="form-group">
               <label htmlFor="inputAddress">Address</label>
-              <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
+              <input name="rAddress" onChange={(event)=>this.isChange(event)} type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
             </div>
             <div className="form-group">
               <label htmlFor="inputAddress2">Phone Number</label>
-              <input type="number" className="form-control" id="inputAddress2" placeholder="Phone Number" />
+              <input name="rPhoneNumber" onChange={(event)=>this.isChange(event)} type="number" className="form-control" id="inputAddress2" placeholder="Phone Number" />
             </div>
             <div className="form-row">
               <div className="form-group col-md-6">
                 <label htmlFor="inputCity">City</label>
-                <input type="text" className="form-control" id="inputCity" />
+                <input name="rCity" onChange={(event)=>this.isChange(event)} type="text" className="form-control" id="inputCity" />
               </div>
               <div className="form-group col-md-4">
                 <label htmlFor="inputState">State</label>
-                <select id="inputState" className="form-control">
+                <select name="fState" onChange={(event)=>this.isChange(event)} id="inputState" className="form-control">
                   <option selected>Choose...</option>
-                  <option>Campuchia</option>
-                  <option>USA</option>
-                  <option>China</option>
-                  <option>Japan</option>
-                  <option>VienNam</option>
+                  <option value="Campuchia">Campuchia</option>
+                  <option value="USA">USA</option>
+                  <option value="China">China</option>
+                  <option value="Japan">Japan</option>
+                  <option value="VienNam">VienNam</option>
                 </select>
               </div>
               <div className="form-group col-md-2">
                 <label htmlFor="inputZip">Zip</label>
-                <input type="text" className="form-control" id="inputZip" />
+                <input type="text" onChange={(event)=>this.isChange(event)} className="form-control" id="inputZip" />
               </div>
             </div>
             <div className="form-group">
               <div className="form-check">
-                <input className="form-check-input" type="checkbox" id="gridCheck" />
+                <input name="rCheck" className="form-check-input" type="checkbox" id="gridCheck" />
                 <label className="form-check-label" htmlFor="gridCheck">
                   Check me out
                 </label>
               </div>
             </div>
-            <button type="submit" className="btn btn-primary sendnow">Registere</button>
+            <button onClick={(event)=>this.submitFormRegister(event)} type="submit" className="btn btn-primary sendnow">Registere</button>
           </form>
         </div>
         <div className="col-md-6">

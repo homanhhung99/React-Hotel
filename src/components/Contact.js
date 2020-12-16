@@ -1,7 +1,33 @@
 import React, { Component } from 'react';
-
+import { Redirect } from 'react-router-dom';
 class Contact extends Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        isRedirect: false
+      }
+    }
+    isChange = (event)=>{
+      const Name = event.target.name
+      const value = event.target.value
+      this.setState({
+        [Name]:value
+      })
+    }
+    submitFormContact = (event)=>{
+      event.preventDefault()
+      this.setState({
+        isRedirect:true
+      })
+    }
     render() {
+      if(this.state.isRedirect === true)
+      {
+        console.log(this.state);
+        return( 
+          <Redirect to="/"/>
+        )
+      }
         return (
             <div>
                 <div>
@@ -19,17 +45,17 @@ class Contact extends Component {
           <form>
             <div className="form-group">
               <label htmlFor="name">Name</label>
-              <input type="text" className="form-control" id="name" placeholder="Name" />
+              <input onChange={(event)=>this.isChange(event)} name="fName" type="text" className="form-control" id="name" placeholder="Name" />
             </div>
             <div className="form-group">
               <label htmlFor="email">Email</label>
-              <input type="email" className="form-control" id="email" placeholder="Email adress" />
+              <input onChange={(event)=>this.isChange(event)} name="fEmail" type="email" className="form-control" id="email" placeholder="Email adress" />
             </div>
             <div className="form-group">
               <label htmlFor="exampleFormControlTextarea1">Messege</label>
-              <textarea className="form-control" id="exampleFormControlTextarea1" rows={3} defaultValue={""} />
+              <textarea onChange={(event)=>this.isChange(event)} name="fMess" className="form-control" id="exampleFormControlTextarea1" rows={3} defaultValue={""} />
             </div>
-            <button type="submit" className="btn btn-info sendnow">SEND NOW</button>
+            <button type="submit" onClick={(event) => this.submitFormContact(event)} className="btn btn-info sendnow">SEND NOW</button>
           </form>
         </div>
         <div className="col-md-6">

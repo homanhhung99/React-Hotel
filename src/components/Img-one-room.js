@@ -4,7 +4,6 @@ class Img_one_room extends Component {
         super(props); 
     }
     render() {
-        console.log(this.props);
         return (
             <div className="img-one-room">
                 <div className="shadow-box-room" />

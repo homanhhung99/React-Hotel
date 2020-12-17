@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import DataRooms from './Data.json'
 import Img_one_room from './Img-one-room';
+import startimg from './../image/stars.png'
 class Home extends Component {
     render() {
         return (
@@ -11,7 +12,7 @@ class Home extends Component {
         <h1>SEA HOTEL</h1>
         <span>141 CHIEN THANG, HA DONG</span>
         <div className="tel">1900 669 968</div>
-        <div className="star">_________________<img src='' alt="" />_________________</div>
+        <div className="star">_________________<img src={startimg} alt="" />_________________</div>
         <div className>__________________________________</div>
         <div className="content">ROOM SUITES</div>
         <div className>__________________________________</div>

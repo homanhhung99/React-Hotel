@@ -1,3 +1,4 @@
+import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
 import './../css/App.css';
@@ -8,6 +9,7 @@ import {
 import '../js/animation/animation'
 //APP
 function App() {
+ 
   return (
     <div className="App">
      <Router>

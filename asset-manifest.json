@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50699f5d.chunk.css",
+    "main.js": "/static/js/main.c434ac41.chunk.js",
+    "main.js.map": "/static/js/main.c434ac41.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bd7c5140.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bd7c5140.js.map",
+    "static/js/2.db0ab6c2.chunk.js": "/static/js/2.db0ab6c2.chunk.js",
+    "static/js/2.db0ab6c2.chunk.js.map": "/static/js/2.db0ab6c2.chunk.js.map",
+    "static/js/3.f09f80e8.chunk.js": "/static/js/3.f09f80e8.chunk.js",
+    "static/js/3.f09f80e8.chunk.js.map": "/static/js/3.f09f80e8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.50699f5d.chunk.css.map": "/static/css/main.50699f5d.chunk.css.map",
+    "static/js/2.db0ab6c2.chunk.js.LICENSE.txt": "/static/js/2.db0ab6c2.chunk.js.LICENSE.txt",
+    "static/js/main.c434ac41.chunk.js.LICENSE.txt": "/static/js/main.c434ac41.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/top-header.4c841083.jpg",
+    "static/media/all.css": "/static/media/fa-solid-900.ca408b63.svg",
+    "static/media/icon-bed-grey.c7b99095.svg": "/static/media/icon-bed-grey.c7b99095.svg",
+    "static/media/icon-calendar-grey.5bdee20f.svg": "/static/media/icon-calendar-grey.5bdee20f.svg",
+    "static/media/icon-plan-grey.7c5a593c.svg": "/static/media/icon-plan-grey.7c5a593c.svg",
+    "static/media/icon-user-grey.81a1ea77.svg": "/static/media/icon-user-grey.81a1ea77.svg",
+    "static/media/stars.d2a7cb48.png": "/static/media/stars.d2a7cb48.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd7c5140.js",
+    "static/js/2.db0ab6c2.chunk.js",
+    "static/css/main.50699f5d.chunk.css",
+    "static/js/main.c434ac41.chunk.js"
+  ]
+}
